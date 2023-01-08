@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Menu</ion-title>
+    <ion-button>
+      <ion-back-button style="color: white;">Atras</ion-back-button>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" [routerLink]="['/contacto']">contactos</ion-button>
+  <ion-button expand="block"[routerLink]="['/acerca']">Acerca de</ion-button>
+  <ion-button expand="block"[routerLink]="['/home']">Salir</ion-button>
+  <h1>Pikachu</h1>
+  <img alt="Foto_pikachu" src="https://th.bing.com/th/id/R.62cf861a37885e67697ae494e247beeb?rik=HnbpSRdAe4IjLg&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140611090049%2fadventuretimewithfinnandjake%2fimages%2fb%2fb3%2fPIKACHU-pikachu-29274386-861-927_(1).jpg&ehk=5d8UiAU%2b0n5kf%2b4tW7Oyba5VzDFaOf8cEy0aJFYmXL8%3d&risl=&pid=ImgRaw&r=0">
+  <h2>Tipo: Electrico</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+  nombre: 'Pikachu', foto:'https://th.bing.com/th/id/R.62cf861a37885e67697ae494e247beeb?rik=HnbpSRdAe4IjLg&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140611090049%2fadventuretimewithfinnandjake%2fimages%2fb%2fb3%2fPIKACHU-pikachu-29274386-861-927_(1).jpg&ehk=5d8UiAU%2b0n5kf%2b4tW7Oyba5VzDFaOf8cEy0aJFYmXL8%3d&risl=&pid=ImgRaw&r=0',descripcion: 'pokemon raton electrico Cuanto más potente es la energía eléctrica que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas.', tipo: 'Electrico'}">Informacion</ion-button>
+
+  <h1>Cindaquil</h1>
+  <img alt="Foto:Cindaquil" src="https://th.bing.com/th/id/R.ef4a16115b6b96d1c9d8c4345b7e112e?rik=ZfOKpqQ1P83uCw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-WY4dBO7rdj8%2fTWBsexL6dPI%2fAAAAAAAAABk%2fb6wFMa05kMQ%2fs1600%2fCyndaquil_by_pokesafari.png&ehk=TbrJ1HlQfYiTxwjGl%2fwjjWByptrkiacSSz1Ilx4J5Qc%3d&risl=&pid=ImgRaw&r=0">
+  <h2> Tipo: Fuego</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'cindaquil', foto: 'https://th.bing.com/th/id/R.ef4a16115b6b96d1c9d8c4345b7e112e?rik=ZfOKpqQ1P83uCw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-WY4dBO7rdj8%2fTWBsexL6dPI%2fAAAAAAAAABk%2fb6wFMa05kMQ%2fs1600%2fCyndaquil_by_pokesafari.png&ehk=TbrJ1HlQfYiTxwjGl%2fwjjWByptrkiacSSz1Ilx4J5Qc%3d&risl=&pid=ImgRaw&r=0', descripcion: 'pokemon Fuego Cyndaquil se protege soltando llamas por el lomo. Cuando está enfadado, las llamas son fieras, pero, si está cansado, solo consigue echar algunas chispas que no llegan a cuajar en una completa combustión.', tipo: 'Fuego'}"> Informacion </ion-button>
+
+    <h1>Larvitar</h1>
+  <img alt="Foto:Larvitar" src="https://pre00.deviantart.net/ace6/th/pre/f/2016/212/9/e/larvitar__by_iamcourtneyg-dac3fd4.jpg">
+  <h2> Tipo: Tierra-Siniestro</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'Larvitar', foto: 'https://pre00.deviantart.net/ace6/th/pre/f/2016/212/9/e/larvitar__by_iamcourtneyg-dac3fd4.jpg', descripcion: 'pokemon Tierra-siniestro Nace en el subsuelo a gran profundidad. Tras ingerir la tierra que lo rodea, emerge a la superficie y se convierte en pupa.', tipo: 'Tierra-Siniestro'}"> Informacion </ion-button>
+
+    <h1>Arceus</h1>
+  <img alt="Foto:Arceus" src="https://th.bing.com/th/id/OIP.TLbSxq5VLn4kyF2EqVFXGwAAAA?pid=ImgDet&rs=1">
+  <h2> Tipo: Hada-Singular</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'Arceus', foto: 'https://th.bing.com/th/id/OIP.TLbSxq5VLn4kyF2EqVFXGwAAAA?pid=ImgDet&rs=1', descripcion: 'pokemon hada-singular La mitología cuenta que este Pokémon nació antes de que el Universo existiera.', tipo: 'Hada-Singular'}"> Informacion </ion-button>
+
+    <h1>Giratina</h1>
+  <img alt="Foto:Giratina" src="https://th.bing.com/th/id/R.8267dd7b20cd23d9a95f8b201d72aca3?rik=6haHJMwL%2fHLbuw&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20090528175243%2fes.pokemon%2fimages%2fc%2fc0%2fGiratina_origen.png&ehk=PH%2b%2bnIHhLLfdBDKbZJ12I2kVqVSe1sbjZrHYJlUs%2brI%3d&risl=&pid=ImgRaw&r=0">
+  <h2> Tipo: Dragon-Fantasma</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'Giratina', foto: 'https://th.bing.com/th/id/R.8267dd7b20cd23d9a95f8b201d72aca3?rik=6haHJMwL%2fHLbuw&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20090528175243%2fes.pokemon%2fimages%2fc%2fc0%2fGiratina_origen.png&ehk=PH%2b%2bnIHhLLfdBDKbZJ12I2kVqVSe1sbjZrHYJlUs%2brI%3d&risl=&pid=ImgRaw&r=0', descripcion: 'pokemon dragon-Fantasma Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común', tipo: 'Dragon-Fantasma'}"> Informacion </ion-button>
+
+    <h1>Palkia</h1>
+  <img alt="Foto:Giratina" src="https://th.bing.com/th/id/R.cb480478423be28dd6661abdd03c27de?rik=y0UaMCiMwz8iKA&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20090506174839%2fes.pokemon%2fimages%2f4%2f4f%2fPalkia.png&ehk=k6F0%2bLZCOm6ycZVUBJWAfXk6Gl5lQ79%2bwMGjJQHvegk%3d&risl=&pid=ImgRaw&r=0">
+  <h2> Tipo: Dragon-Agua</h2>
+  <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'Palkia', foto: 'https://th.bing.com/th/id/R.cb480478423be28dd6661abdd03c27de?rik=y0UaMCiMwz8iKA&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20090506174839%2fes.pokemon%2fimages%2f4%2f4f%2fPalkia.png&ehk=k6F0%2bLZCOm6ycZVUBJWAfXk6Gl5lQ79%2bwMGjJQHvegk%3d&risl=&pid=ImgRaw&r=0', descripcion: 'pokemon dragon-agua Se dice que vive en una dimensión espacial paralela. Aparece en la mitología.', tipo: 'Dragon-Agua'}"> Informacion </ion-button>
+
+    <h1>Dialga</h1>
+    <img alt="Foto:Dialga" src="https://th.bing.com/th/id/R.504bb094962e67f38726d94928dd55a2?rik=yAwoEhfwPRBYOQ&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2fes.pokemon%2fimages%2f9%2f95%2fDialga_(anime_DP).png%2frevision%2flatest%3fcb%3d20120906035705&ehk=pmSxE%2fccFYLv7bujQ8FiEJlObjDbQ8FaowqCjXfDngc%3d&risl=&pid=ImgRaw&r=0">
+    <h2>Tipo: Dragon-Acero</h2>
+    <ion-button [routerLink]="['/query']" [queryParams]="{
+      nombre: 'Dialga', foto: 'https://th.bing.com/th/id/R.504bb094962e67f38726d94928dd55a2?rik=yAwoEhfwPRBYOQ&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2fes.pokemon%2fimages%2f9%2f95%2fDialga_(anime_DP).png%2frevision%2flatest%3fcb%3d20120906035705&ehk=pmSxE%2fccFYLv7bujQ8FiEJlObjDbQ8FaowqCjXfDngc%3d&risl=&pid=ImgRaw&r=0', descripcion: 'pokemon dragon-acero Un Pokémon de leyenda. Se dice que el tiempo comenzó a avanzar cuando Dialga nació.', tipo: 'dragon-acero'}"> Informacion </ion-button>
+
+    <h1>Rayquasa</h1>
+    <img alt="Foto:Rayquasa" src="https://th.bing.com/th/id/R.66267871a90611a90daaede0967cc808?rik=qTLbHKAPq90%2fvw&riu=http%3a%2f%2fpm1.narvii.com%2f6114%2f4771f7e4a0805d91ba238017cc0e28d195c99238_00.jpg&ehk=lXrK28mQbMT2F0QR%2fxXGmcCV%2f051TOMSrH%2b1FarvjXU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+    <h2>Tipo: Dragon-Volador</h2>
+    <ion-button [routerLink]="['/query']" [queryParams]="{
+        nombre: 'Rayquasa', foto: 'https://th.bing.com/th/id/R.66267871a90611a90daaede0967cc808?rik=qTLbHKAPq90%2fvw&riu=http%3a%2f%2fpm1.narvii.com%2f6114%2f4771f7e4a0805d91ba238017cc0e28d195c99238_00.jpg&ehk=lXrK28mQbMT2F0QR%2fxXGmcCV%2f051TOMSrH%2b1FarvjXU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1', descripcion: 'pokemon dragon-vola Dicen que Rayquaza ha vivido durante millones de años. Las leyendas cuentan que puso fin al continuo enfrentamiento entre Groudon y Kyogre.', tipo: 'dragon-volador'}"> Informacion </ion-button>
+
+    <h1>Groudon</h1>
+    <img alt="Foto:Groudon" src="https://th.bing.com/th/id/R.ce87a46b95d1da1949b4f7748739acfd?rik=uMoz61fAYHVD%2fg&pid=ImgRaw&r=0">
+    <h2>Tipo: Dragon-Agua</h2>
+    <ion-button [routerLink]="['/query']" [queryParams]="{
+    nombre: 'Groudon', foto: 'https://th.bing.com/th/id/R.ce87a46b95d1da1949b4f7748739acfd?rik=uMoz61fAYHVD%2fg&pid=ImgRaw&r=0', descripcion: 'pokemon tierra A Groudon siempre se le ha descrito como el Pokémon que expandió los continentes. Varias leyendas cuentan que libró combates contra Kyogre en repetidas ocasiones para tener el control de la energía de la naturaleza.', tipo: 'tierra'}"> Informacion </ion-button>
+
+    <h1>Kiogre</h1>
+    <img alt="Foto:Kiogre" src="https://th.bing.com/th/id/R.79789bf4098de3cef1fc356ca55a53a8?rik=R660CjicH4VXRw&pid=ImgRaw&r=0">
+    <h2>Tipo: Agua</h2>
+    <ion-button [routerLink]="['/query']" [queryParams]="{
+      nombre: 'Kiogre', foto: 'https://th.bing.com/th/id/R.79789bf4098de3cef1fc356ca55a53a8?rik=R660CjicH4VXRw&pid=ImgRaw&r=0', descripcion: 'pokemon agua Kyogre se sirve de la energía de la naturaleza para realizar su Regresión Primigenia y recobrar su apariencia primitiva. Con tal poder, puede desencadenar tempestades para expandir los océanos.', tipo: 'Agua'}"> Informacion </ion-button>
+
+  <img alt="Emblema" src="https://d1fdloi71mui9q.cloudfront.net/nqVpqWUGR26tJfU934N2_d2e8872a131f21a44617f492d6735cc4" />
+
+</ion-content>
